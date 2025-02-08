@@ -7,6 +7,10 @@ function erase()
 {
     display.value=" ";
 }
+function del()
+{
+    display.value = display.value.slice(0, -1);   
+}
 function result()
 {
     try{
