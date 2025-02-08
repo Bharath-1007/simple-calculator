@@ -1,0 +1,40 @@
+.backcolor
+{
+    background-color: #1c1c1c;
+    width: 400px;
+    margin: 50px;
+}
+button  
+{
+    padding: 2px;
+    width: 70px;
+    font-size: 30px;;
+    border-radius: 30%;
+    height: 35px;
+    margin-left: 10px;
+    margin: 10px;
+    border: none;
+    color: white;
+}
+.box
+{
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 396px;
+    font-size: 30px;
+    border-radius: 0px;
+    border: none;
+}
+.top
+{
+    background-color: #b0b0b6;
+}
+.side
+{
+    background-color: #ff9500;
+}
+.remain
+{
+    background-color: #7d7c84;
+}

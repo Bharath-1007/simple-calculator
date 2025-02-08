@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="backcolor">
+        <input type="text" class="box" id="display" readonly><br>
+        <button onclick="erase()" class="top">C</button>
+        <button onclick="erase()" class="top">DEL</button>
+        <button onclick="perform('%')" class="top">%</button>
+        <button onclick="perform('/')" class="side">/</button><br>
+        <button onclick="perform('7')" class="remain">7</button>
+        <button onclick="perform('8')" class="remain">8</button>
+        <button onclick="perform('9')" class="remain">9</button>
+        <button onclick="perform('*')" class="side">X</button><br>
+        <button onclick="perform('4')" class="remain">4</button>
+        <button onclick="perform('5')" class="remain">5</button>
+        <button onclick="perform('6')" class="remain">6</button>
+        <button onclick="perform('-')" class="side">-</button><br>
+        <button onclick="perform('1')" class="remain">1</button>
+        <button onclick="perform('2')" class="remain">2</button>
+        <button onclick="perform('3')" class="remain">3</button>
+        <button onclick="perform('+')" class="side">+</button><br>
+        <button class="remain" onclick="perform('0')">0</button>
+        <button onclick="perform('.')" class="remain">.</button>
+        <button onclick="result()" class="side">=</button>
+    </div>
+    <script src="jsp.js"></script>
 </body>
 </html>
